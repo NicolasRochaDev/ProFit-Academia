@@ -10,13 +10,71 @@
   <link rel="shortcut icon" href="./Images/fav.png" type="image/x-icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="./style.css" rel="stylesheet">
+  <style>
+    .container-h {
+
+      max-width: 100%;
+      height: 400px;
+      background-color:#FFAD12;
+    }
+
+
+    .horarios {
+
+      max-width: 900px;
+      height: 350px;
+      background-color: white;
+      border-radius: 40px;
+      position: relative;
+      top: 25px;
+      left: 225px;
+
+    }
+
+
+    .text-position {
+
+      position: relative;
+      bottom: 300px;
+      left: 275px;
+      list-style-type: none;
+      max-width: 800px;
+    
+    }
+
+
+     .hours {
+      border-bottom: 2px solid black;
+      padding: 10px;
+      display: flex;
+    }
+
+    .hours-align {
+
+      position: absolute;
+      left: 650px;
+      color: #FFAD12;
+      
+    }
+
+    .hours-align-SB {
+      position: absolute;
+      left: 556px;
+      color: #FFAD12;
+
+    }
+
+
+
+  </style>
 
 </head>
 
 <body>
 
   <header>
-    <nav>
+    <nav style=" border-bottom: 2px solid #FFAD12;
+    box-shadow: 0 0 1em #FFAD12;">
       <a class="logo" href="index.html"> <img src="./Images/logo.png" alt="logo" height="80px"></a>
       <ul class="nav">
         <li><a href="index.html">Início</a></li>
@@ -27,68 +85,46 @@
     </nav>
   </header>
 
-
-  <main>
-    <div class="container">
-      <h1 class="branco">A sua melhor opção na hora de <span id="black">uma vida + saudável.</span></h1>
-    </div>
-  </main>
+  <br><br><br><br><br><br>
 
 
-  <section class="fotos">
-
-    <h1>Experiências <span class="amarelo">Pro Fit</span></h1> <br>
-
-    <div class="quadro">
-
-      <div class="quadrado quadrado-ft1"></div>
-      <div class="quadrado quadrado-ft2"></div>
-      <div class="quadrado quadrado-ft3"></div>
+  <div class="container-h">
+    
+    <div class="horarios">
 
     </div>
 
-  </section>
+<ul class="text-position">
 
-  <section class="inicio">
 
-    <section class="divplanos">
-      <h1>Conheça Nossos Planos</h1>
+<li class="hours">
+  <b>Segunda-Feira</b> <div class="container-align"><b class="hours-align">06:00 - 23:00</b></div>
+</li>
+<li class="hours">
+  <b>Terça-Feira</b> <b class="hours-align">06:00 - 23:00</b>
+</li>
+<li class="hours">
+  <b>Quarta-Feira</b> <b class="hours-align">06:00 - 23:00</b>
+</li>
+<li class="hours">
+  <b>Quinta-Feira</b> <b class="hours-align">06:00 - 23:00</b>
+</li>
+<li class="hours">
+  <b>Sexta-Feira</b> <b class="hours-align">06:00 - 23:00</b>
+</li>
+<li class="hours">
+  <b>Sábado</b> <b class="hours-align-SB">9:00 - 12:00 | 14:00 - 17:00</b>
+</li>
+<li class="hours">
+  <b>Domingo</b> <b class="hours-align-SB">9:00 - 12:00 | 14:00 - 17:00</b>
+</li>
 
-      <br> <br>
+</ul>
 
-      <ul>
-        <li class="planos">
-          <p>Musculação ProFit <b class="teste1">R$ 89,90*</b></p>
-        </li>
-        <li class="planos">
-          <p>Muay Thai ProFit <b class="teste1">R$ 89,90*</b></p>
-        </li>
-        <li class="planos">
-          <p>Cros Fit <b class="teste1">R$ 89,90*</b></p>
-        </li>
-        <li class="planos">
-          <p>Karate Kids <b class="teste1">R$ 89,90*</b></p>
-        </li>
-        <li class="planos">
-          <p> Yoga <b class="teste1">R$ 89,90*</b> </p>
-        </li>
-      </ul>
-    </section>
 
-    <br><br><br>
+  </div>
 
-    <h1>Encontre a Academia Mais Próxima de Você</h1>
-    <p class="minuscula">Os melhores equipamentos, infraestrutura e muito mais com mensalidades acessíveis.</p>
-
-    <br><br>
-
-    <a class="card1" href="Getulio.html">Filial Av. Presidente Vargas</a>
-
-    <a class="card2" href="Tupy.html">Filial Tupy Silvera </a>
-
-    <br><br><br><br> <br><br><br><br> <br><br><br><br>
-
-  </section>
+  <br><br><br><br><br><br>
 
   <footer>
     <div class="container-footer">
@@ -107,13 +143,14 @@
         <div class="footer-col">
           <h4 style="text-align: center;">Vem Fazer Uma Aula Experimental na Pro!</h4>
           <div class="form-sub">
-              <a href="#"><button>Quero Ser Pro</button></a>
+            <a href="#"><button>Quero Ser Pro</button></a>
           </div>
 
           <div class="medias-socias">
             <a href="#" target="_blank"> <i class="fa fa-whatsapp"></i> </a>
             <a href="https://www.facebook.com/profitacademiabage" target="_blank"> <i class="fa fa-facebook"></i> </a>
-            <a href="https://www.instagram.com/profitacademiabage/" target="_blank"> <i class="fa fa-instagram"></i> </a>
+            <a href="https://www.instagram.com/profitacademiabage/" target="_blank"> <i class="fa fa-instagram"></i>
+            </a>
           </div>
 
         </div>
